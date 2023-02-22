@@ -2747,7 +2747,7 @@ ol li {
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all 0.5s ease;
-  background: #013064;
+  background:transparent;
 }
 
 .header-style-3 .main-bar .container,
@@ -2904,7 +2904,7 @@ ol li {
 }
 
 .header-style-3 .header-nav .nav > li > a {
-  color: white;
+  color: black;
   font-size: 25px;
   padding: 15px 16px;
   cursor: pointer;
@@ -2964,7 +2964,7 @@ ol li {
 }
 
 .header-style-3 .header-nav .nav > li .sub-menu {
-  background-color: #fff;
+  background-color: white;
   display: block;
   left: 0px;
   top: 100%;
@@ -3209,7 +3209,7 @@ ol li {
 }
 
 .header-style-3 .is-fixed.color-fill .main-bar {
-  background-color: #1e8fd0;
+  background-color:transparent;
 }
 
 .header-style-3 .is-fixed.color-fill .header-nav .nav > li {
