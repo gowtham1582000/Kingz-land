@@ -120,27 +120,7 @@
                         </div>
                         
                         <!-- Header Right Section-->
-                        <div class="extra-nav header-2-nav">
-                            <div class="extra-cell">
-                                <div class="header-search">
-                                    <a href="#search" class="header-search-icon"><i class="fa fa-search"></i></a>
-                                </div>                                
-                            </div>
-                            <!--<div class="extra-cell">
-                                <div class="header-nav-call-section">
-
-                                    
-                                    <div class="detail">
-                                        <span class="title">Free Call In U.S.A</span>
-                                        <span><a href="tel:29002344241">2 900 234 4241</a></span>
-                                    </div>
-                                    <div class="media">
-                                        <img src="images/call.png" alt="#">
-                                    </div>
-                                </div>
-                            </div> -->
-                                
-                            </div>                            
+                                                  
                     
                                                     
                         
@@ -150,7 +130,17 @@
                 </div>
 
                 <!-- SITE Search -->
-               
+                <div id="search"> 
+                    <span class="close"></span>
+                    <form role="search" id="searchform" action="/search" method="get" class="radius-xl">
+                        <input class="form-control" value="" name="q" type="search" placeholder="Type to search"/>
+                        <span class="input-group-append">
+                            <button type="button" class="search-btn">
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
+                        </span>
+                    </form>
+                </div> 
             </div>
             
         </header>
