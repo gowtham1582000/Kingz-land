@@ -2653,7 +2653,7 @@ ol li {
 }
 
 .header-style-3 .header-search a.header-search-icon {
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid rgb(255, 255, 255);
   color: #fff;
   width: 54px;
   height: 54px;
@@ -2663,6 +2663,7 @@ ol li {
   font-size: 24px;
   font-weight: normal;
   border-radius: 50%;
+  margin-right: 25px;
 }
 
 .header-style-3 .extra-nav {
@@ -2835,6 +2836,7 @@ ol li {
   position: relative;
   padding: 0px;
   z-index: 10;
+  margin-right: 50px;
   /*-- Submenu direction---*/
 }
 
@@ -2953,7 +2955,7 @@ ol li {
 }
 
 .header-style-3 .header-nav .nav > li:hover > a {
-  color: #ffffff;
+  color: #f7f6f5;
 }
 
 .header-style-3 .header-nav .nav > li:hover > .sub-menu {
@@ -4152,7 +4154,6 @@ button.scroltop span {
   right: 0px;
   bottom: 0px;
   position: absolute;
-  background: linear-gradient(to bottom, #1e8fd0 0%, rgba(30, 143, 208, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e8fd0', endColorstr='#001e8fd0',GradientType=0 );
 }
 
@@ -5314,7 +5315,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .opacity-08 {
-  opacity: 0.8;
+  opacity: 0;
 }
 
 .opacity-09 {
