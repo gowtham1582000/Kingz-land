@@ -589,7 +589,7 @@ ol li {
 }
 
 .p-b90 {
-  padding-bottom: 90px;
+  
 }
 
 .p-b100 {
@@ -7517,7 +7517,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .tw-booking-form .booking-tab-container .booking-tab-menu .list-group > a.active .media {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   filter: grayscale(0%);
 }
 
@@ -7529,7 +7529,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .tw-booking-form .booking-tab-container .booking-tab-content {
   background-color: #ffffff;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   transition: 0.5s all ease;
 }
 
