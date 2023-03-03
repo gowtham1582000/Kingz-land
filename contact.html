@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="css/lc_lightbox.css" />     
     <!-- Price Range Slider -->
     <link rel="stylesheet" href="css/bootstrap-slider.min.css" />
-    
+    <script src="js/dropdown.js"></script>
 </head>
 
 <body>
@@ -257,24 +257,24 @@
 
                                                         <div class="col-lg-6 col-md-6">
                                                             <div class="mb-3">
-                                                                <select id="Freight_Type" class="form-select">
+                                                                <select id="dropdown" onchange="populateDropdown2()" class="form-select">
                                                                     <option selected>Products</option>
-                                                                    <option>Groceries</option>
-                                                                    <option>Fruits & Vegetables</option>
-                                                                    <option>Construction materials</option>
-                                                                    <option>Medicine</option>
-                                                                    <option>Surgical equipments</option>
-                                                                    <option>Utensils</option>
-                                                                    <option>Clothing</option>
-                                                                    <option>Yarn</option>
+                                                                    <option value="1">Groceries</option>
+                                                                    <option value="2">Fruits & Vegetables</option>
+                                                                    <option value="3">Construction materials</option>
+                                                                    <option value="4">Medicine</option>
+                                                                    <option value="5">Surgical equipments</option>
+                                                                    <option value="6">Utensils</option>
+                                                                    <option value="7">Clothing</option>
+                                                                    <option value="8">Yarn</option>
                                                                 </select>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6 col-md-6">
                                                             <div class="mb-3">
-                                                                <select id="Incoterms" class="form-select">
-                                                                    <option selected>Incoterms</option>
-                                                                    <option>...</option>
+                                                                <select id="dropdown1" class="form-select">
+                                                                    <option vlaue="">Select the Item</option>
+                                                                    
                                                                 </select>
                                                             </div>
                                                         </div>
@@ -353,6 +353,7 @@
 
                                                 </form>
                                             </div>
+                                           
                                             <!-- train section -->
                                             <!--<div class="booking-tab-content">
                                                 <form class="track-and-trace-form">
@@ -583,6 +584,7 @@
 <script  src="js/swiper-bundle.min.js"></script><!-- Swiper js -->
 <script  src="js/jquery.bgscroll.js"></script><!-- BACKGROUND SCROLL -->
 <script  src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+
 
 
 
